@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pesquisa de CEP</title>
+    <link rel="stylesheet" href="style-buscacep.css">
+</head>
+<body>
+    <div class="card">
+    <h1>Pesquisa de CEP</h1>
+    <form action="resultado.php" method="GET" >
+        <label for="cep">Digite o CEP:</label>
+        <input type="text" id="cep" name="cep" pattern="[0-9]{8}" required>
+        <button type="submit">Buscar</button>
+    </form>
+    </div>
+</body>
+</html>
