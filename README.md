@@ -1,21 +1,40 @@
-<h1 align="center">Busca de CEP</h1>
 
-<h4 align="center"> 📦 Encontre informações de CEP de forma rápida e eficiente! 🌐</h4>
+# 🔍 Busca de CEP - Projeto PHP
 
-<p align="center">Esta aplicação de busca de CEP oferece uma maneira simples e prática de obter detalhes sobre endereços com base no CEP. Desenvolvida para facilitar a vida das pessoas, esta ferramenta é útil para quem precisa acessar informações precisas de maneira rápida e descomplicada.</p>
+Este é um projeto simples de frontend e backend que permite aos usuários buscar informações de endereços com base no CEP fornecido. O projeto utiliza PHP, CSS e HTML para fornecer uma interface amigável para realizar buscas de CEP.
 
-<h4>🔍 Como funciona?</h4>
+## Funcionalidades
 
-<p align="center">Basta inserir o CEP desejado e clicar em "Buscar". A aplicação fará uma solicitação aos serviços de busca de CEP, retornando informações como logradouro, bairro, cidade e estado. É uma solução útil para quem precisa encontrar dados de endereço de forma prática e confiável.</p>
+- 📝 Busca de CEP: Os usuários podem inserir um CEP no campo de busca e obter os dados do logradouro correspondente.
+- 🌐 Requisições HTTP: O projeto utiliza requisições HTTP para consultar um serviço externo de API de CEP e obter os dados do endereço.
+- 🖥️ Servidor Local: O projeto requer um servidor local, como XAMPP, para executar o código PHP.
 
-<h4>🤔 Por que a Busca de CEP?</h4>
+## Pré-requisitos
 
-<p align="center">A busca de CEP é uma ferramenta essencial para muitas pessoas e empresas, ajudando a economizar tempo na obtenção de informações de endereço. Este projeto visa simplificar o processo de obtenção de dados de CEP, tornando-o acessível a todos.</p>
+Para usar este projeto, você precisará:
 
-<h4>🌐 Conveniência e Eficiência!</h4>
+1. ⚙️ Instalar um servidor local, como XAMPP, para executar o código PHP.
+2. 🌐 Conexão com a internet para acessar o serviço de API de CEP.
 
-<p align="center">Nossa aplicação é projetada para ser rápida e fácil de usar, fornecendo informações precisas em segundos. Não perca mais tempo procurando informações de endereço manualmente, experimente a busca de CEP hoje mesmo!</p>
+## Como usar
 
-<h4>👉 Experimente Agora!</h4>
+1. 📂 Clone este repositório em seu computador:
+   ```
+   git clone https://github.com/seu-usuario/nome-do-projeto.git
+   ```
 
-<p align="center">Junte-se a nós nesta jornada de conveniência e eficiência! Experimente a Busca de CEP aqui e compartilhe esta ferramenta útil com seus amigos e colegas. Juntos, simplificaremos o processo de obtenção de informações de endereço, criado com PHP, HTML e CSS! 💡</p>
+2. 🛠️ Configure seu servidor local (por exemplo, XAMPP) e certifique-se de que o PHP esteja funcionando corretamente.
+
+3. 🚀 Coloque os arquivos do projeto na pasta do servidor web (por exemplo, `htdocs` no XAMPP).
+
+4. 💻 Acesse o projeto através do navegador da web:
+   ```
+   http://localhost/nome-do-projeto/index.php
+   ```
+
+5. 🔍 Insira um CEP válido no campo de busca e pressione "Buscar". Os dados do logradouro correspondente serão exibidos na tela.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você quiser melhorar este projeto, sinta-se à vontade para abrir um problema ou enviar uma solicitação de pull.
+
